@@ -8,13 +8,13 @@ We give conditions under which *convolutional neural networks* (CNNs) define val
 
 Small example for sanity test:
 
-```python
+```bash
 python run_experiment.py --name example --seed 1234 --width 64 --height 64 --channels 1 --output-dir outputs --database-path databases/olivetti --learning-rate 0.01 --minibatch-size 64 --epochs 3 --valid-amount 50 --first-sum-channels 12 --model-type tree --tree-model-size 16 --tree-model-alt-size 32 --tree-model-alt-amt 100 --leaf-components 4 --complete-side left --training-type nll --inference-type mpe
 ```
 
 One of the paper experiments:
 
-```python
+```bash
 python run_experiment.py --name olivetti_left --seed 1234 --width 64 --height 64 --channels 1 --output-dir outputs --database-path databases/olivetti --learning-rate 0.01 --minibatch-size 64 --epochs 200 --valid-amount 50 --first-sum-channels 12 --model-type tree --tree-model-size 2 --tree-model-alt-size 2 --tree-model-alt-amt 100 --leaf-components 4 --complete-side left --training-type nll --inference-type mpe
 ```
 
