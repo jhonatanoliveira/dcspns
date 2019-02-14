@@ -19,4 +19,4 @@ python run_experiment.py --name olivetti_left --seed 1234 --width 64 --height 64
 ```
 
 ## Reference
-[1] C.J. Butz, J.S. Oliveira, A. dos Santos, A.L. Teixeira, Deep Convolutional Sum-Product Networks, Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), 2019.
+C.J. Butz, J.S. Oliveira, A. dos Santos, A.L. Teixeira, Deep Convolutional Sum-Product Networks, Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), 2019.
