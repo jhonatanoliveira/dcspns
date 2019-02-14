@@ -1,0 +1,13 @@
+# Python stuff
+/build
+__pycache__
+# Repository stuff
+outputs
+# Our stuff
+*.sublime-workspace
+*.sublime-project
+floyd_requirements.txt
+.floydignore
+.floydexpt
+floyd_run_snip.txt
+.vscode
