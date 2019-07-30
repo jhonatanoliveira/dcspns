@@ -293,9 +293,9 @@ class Database:
         # Simple MSE function
         def _mse(d1, d2):
             # Shape of d1 and d2 should be [H, W]
-            mse = np.mean(
-                ((255 * d2).astype(dtype="int") -
-                    (255 * d1).astype(dtype="int")) ** 2)
+            diff_arr = ((255 * d2).astype(dtype="int") -
+                        (255 * d1).astype(dtype="int")) ** 2
+            mse = np.mean(diff_arr[diff_arr != 0])
             return mse
         if save_imgs_path is None:
             total_mse = 0
